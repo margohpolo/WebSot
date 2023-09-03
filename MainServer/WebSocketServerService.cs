@@ -54,7 +54,7 @@ namespace MainServer
             {
                 StringBuilder _sb = new StringBuilder();
 
-                _sb.Append($"Sent to {wsConn.ConnectionInfo.Origin} ");
+                _sb.Append($"Sent to {wsConn.ConnectionInfo.Origin} "); //.Net console app has no Origin printed
 
                 Task sendMsgTask = wsConn.Send(message); //would it make sense to run async?
 

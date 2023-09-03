@@ -14,4 +14,5 @@ Quick shoutout to Hussein Nasser & this [Great Udemy](https://www.udemy.com/cour
 
 #### Moving Forward
 - Debugging the connection check in Client
-- Usage of WebSocketBehavior class
+- Usage of WebSocketBehavior class for Client? (Not sure if feasible)
+- .Net Console Client Origin still not printing on Server side

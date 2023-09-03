@@ -20,7 +20,7 @@ namespace Client_One
             _webSocket = new WebSocket(address);
 
             _webSocket.EmitOnPing = true;
-            _webSocket.Origin = "ConsoleClient";
+            _webSocket.Origin = "ConsoleClient"; //Still not printing on Server side
             _webSocket.OnOpen += OnOpenBehavior;
             _webSocket.OnMessage += OnMessageBehavior;
             _webSocket.OnError += OnErrorBehavior;
